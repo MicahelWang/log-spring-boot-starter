@@ -1,5 +1,7 @@
-package com.example;
+package com.example.conf;
 
+import com.example.ExampleService;
+import com.example.ExampleServiceProperties;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
